@@ -47,6 +47,7 @@ user_pref("privacy.trackingprotection.enabled", true);
 user_pref("xpinstall.signatures.required", false);
 // search suggest
 user_pref("browser.urlbar.suggest.searches", true);
+// show protocol on url bar
 user_pref("browser.urlbar.trimURLs", false);
 // disable services
 user_pref("loop.enabled", false);
