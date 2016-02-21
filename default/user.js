@@ -48,6 +48,9 @@ user_pref("xpinstall.signatures.required", false);
 // search suggest
 user_pref("browser.urlbar.suggest.searches", true);
 user_pref("browser.urlbar.trimURLs", false);
+// disable services
+user_pref("loop.enabled", false);
+user_pref("browser.pocket.enabled", false);
 
 // Extension //
 
