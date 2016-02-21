@@ -1,0 +1,10 @@
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+
+/* no tab close button on selected tab*/
+.tabbrowser-tab[selected="true"] .tab-close-button {display:none !important;}
+
+/* style for unloaded tabs */
+.tabbrowser-tab[pending] {opacity: .5;}
+
+/* no click to play popup */
+/* panel[popupid="click-to-play-plugins"] {display: none !important;} */
