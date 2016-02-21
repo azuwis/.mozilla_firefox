@@ -55,3 +55,11 @@ user_pref("browser.urlbar.trimURLs", false);
 // backup every 4 hours
 user_pref("extensions.{1280606b-2510-4fe0-97ef-9b5a22eafe30}.backup_every", true);
 user_pref("extensions.{1280606b-2510-4fe0-97ef-9b5a22eafe30}.backup_every_time", 240);
+
+// class theme restorer
+user_pref("extensions.classicthemerestorer.appbutton", "appbutton_off");
+user_pref("extensions.classicthemerestorer.ctabheight", 24);
+user_pref("extensions.classicthemerestorer.ctabheightcb", true);
+user_pref("extensions.classicthemerestorer.hidetbwot", true);
+user_pref("extensions.classicthemerestorer.smallnavbut", true);
+user_pref("extensions.classicthemerestorer.tabs", "tabs_default");
