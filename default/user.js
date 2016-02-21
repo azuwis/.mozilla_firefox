@@ -55,6 +55,13 @@ user_pref("browser.pocket.enabled", false);
 // disable safe browsing
 user_pref("browser.safebrowsing.enabled", false);
 user_pref("browser.safebrowsing.malware.enabled", false);
+// disable data reporting, https://gecko.readthedocs.org/en/latest/toolkit/components/telemetry/telemetry/preferences.html
+user_pref("toolkit.telemetry.archive.enabled", false);
+user_pref("toolkit.telemetry.enabled", false);
+user_pref("toolkit.telemetry.server", "");
+user_pref("toolkit.telemetry.unified", false);
+user_pref("datareporting.healthreport.uploadEnabled", flase);
+user_pref("datareporting.policy.dataSubmissionEnabled", flase);
 
 // Extension //
 
