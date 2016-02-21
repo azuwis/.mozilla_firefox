@@ -66,3 +66,8 @@ user_pref("extensions.classicthemerestorer.ctabheightcb", true);
 user_pref("extensions.classicthemerestorer.hidetbwot", true);
 user_pref("extensions.classicthemerestorer.smallnavbut", true);
 user_pref("extensions.classicthemerestorer.tabs", "tabs_default");
+
+// beyond australis
+user_pref("extensions.thefoxonlybetter.awesomerURLBar", false);
+user_pref("extensions.thefoxonlybetter.skyLights", false);
+user_pref("extensions.thefoxonlybetter.slimAnimation", "none");
