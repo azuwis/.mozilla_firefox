@@ -23,10 +23,8 @@ user_pref("browser.sessionstore.restore_on_demand", true);
 user_pref("browser.sessionstore.interval", 300000);
 // disable the install-dialog delay
 user_pref("security.dialog_enable_delay", 0);
-// disable tabgroup animation
-user_pref("browser.panorama.animate_zoom", false);
 // disable fullscreen animation
-user_pref("browser.fullscreen.animateUp", 0);
+user_pref("browser.fullscreen.animate", false);
 // disable tab animation
 user_pref("browser.tabs.animate", false);
 // do not track
