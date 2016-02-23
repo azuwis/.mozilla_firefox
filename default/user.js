@@ -27,6 +27,7 @@ user_pref("security.dialog_enable_delay", 0);
 user_pref("browser.fullscreen.animate", false);
 // disable tab animation
 user_pref("browser.tabs.animate", false);
+user_pref("toolkit.scrollbox.smoothScroll", false);
 // do not track
 user_pref("privacy.donottrackheader.enabled", true);
 // no new tab page
