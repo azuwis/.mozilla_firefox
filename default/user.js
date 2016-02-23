@@ -1,4 +1,5 @@
 // Firefox //
+// more at https://github.com/pyllyukko/user.js/blob/master/user.js
 
 user_pref("ui.caretWidth", 5);
 user_pref("ui.caretBlinkTime", 0);
@@ -65,8 +66,14 @@ user_pref("datareporting.policy.dataSubmissionEnabled", false);
 user_pref("media.peerconnection.enabled", false);
 // https://developer.mozilla.org/en-US/docs/Web/API/navigator.sendBeacon
 user_pref("beacon.enabled", false);
-// Disable GEO
+// disable GEO
 user_pref("geo.enabled", false);
+// http://kb.mozillazine.org/Browser.send_pings
+user_pref("browser.send_pings", false);
+// disable domain guessing
+user_pref("browser.fixup.alternate.enabled", false);
+// disable addon metadata updates, https://blog.mozilla.org/addons/how-to-opt-out-of-add-on-metadata-updates/
+user_pref("extensions.getAddons.cache.enabled", false);
 
 // Extension //
 
