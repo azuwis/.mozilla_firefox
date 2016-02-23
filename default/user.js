@@ -60,8 +60,8 @@ user_pref("toolkit.telemetry.archive.enabled", false);
 user_pref("toolkit.telemetry.enabled", false);
 user_pref("toolkit.telemetry.server", "");
 user_pref("toolkit.telemetry.unified", false);
-user_pref("datareporting.healthreport.uploadEnabled", flase);
-user_pref("datareporting.policy.dataSubmissionEnabled", flase);
+user_pref("datareporting.healthreport.uploadEnabled", false);
+user_pref("datareporting.policy.dataSubmissionEnabled", false);
 
 // Extension //
 
