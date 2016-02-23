@@ -33,6 +33,7 @@ user_pref("toolkit.scrollbox.smoothScroll", false);
 user_pref("privacy.donottrackheader.enabled", true);
 // no new tab page
 user_pref("browser.newtabpage.enabled", false);
+user_pref("browser.newtabpage.enhanced", false);
 // disable pdfjs
 user_pref("pdfjs.disabled", true);
 // set reader mode style
@@ -74,6 +75,9 @@ user_pref("browser.send_pings", false);
 user_pref("browser.fixup.alternate.enabled", false);
 // disable addon metadata updates, https://blog.mozilla.org/addons/how-to-opt-out-of-add-on-metadata-updates/
 user_pref("extensions.getAddons.cache.enabled", false);
+// disable openh264
+user_pref("media.gmp-gmpopenh264.enabled", false);
+user_pref("media.gmp-manager.url.override", "data:text/plain,");
 
 // Extension //
 
