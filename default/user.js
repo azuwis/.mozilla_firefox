@@ -1,6 +1,8 @@
 // Firefox //
 // more at https://github.com/pyllyukko/user.js/blob/master/user.js
 
+// enable extensions update explicitly
+user_pref("extensions.update.enabled", true);
 user_pref("ui.caretWidth", 5);
 user_pref("ui.caretBlinkTime", 0);
 // disable web page accesskey, this leads to key conflict
@@ -78,6 +80,10 @@ user_pref("extensions.getAddons.cache.enabled", false);
 // disable openh264
 user_pref("media.gmp-gmpopenh264.enabled", false);
 user_pref("media.gmp-manager.url.override", "data:text/plain,");
+// disable about:home update
+user_pref("browser.aboutHomeSnippets.updateUrl", "");
+// disable search engine update
+user_pref("browser.search.update", false);
 
 // Extension //
 
