@@ -62,6 +62,12 @@ user_pref("toolkit.telemetry.server", "");
 user_pref("toolkit.telemetry.unified", false);
 user_pref("datareporting.healthreport.uploadEnabled", false);
 user_pref("datareporting.policy.dataSubmissionEnabled", false);
+// webRTC
+user_pref("media.peerconnection.enabled", false);
+// https://developer.mozilla.org/en-US/docs/Web/API/navigator.sendBeacon
+user_pref("beacon.enabled", false);
+// Disable GEO
+user_pref("geo.enabled", false);
 
 // Extension //
 
