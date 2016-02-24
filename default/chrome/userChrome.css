@@ -1,4 +1,4 @@
-@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
 /* no tab close button on selected tab*/
 .tabbrowser-tab[selected="true"] .tab-close-button {display:none !important;}
