@@ -85,6 +85,8 @@ user_pref("media.gmp-manager.url.override", "data:text/plain,");
 user_pref("browser.aboutHomeSnippets.updateUrl", "");
 // disable search engine update
 user_pref("browser.search.update", false);
+// enable console in devtools
+user_pref("devtools.chrome.enabled", true);
 
 // Extension //
 
