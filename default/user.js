@@ -3,7 +3,6 @@
 
 // enable extensions update explicitly
 user_pref("extensions.update.enabled", true);
-user_pref("ui.caretWidth", 5);
 user_pref("ui.caretBlinkTime", 0);
 // disable web page accesskey, this leads to key conflict
 user_pref("ui.key.generalAccessKey", 0);
