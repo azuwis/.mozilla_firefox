@@ -9,6 +9,8 @@ user_pref("ui.key.generalAccessKey", 0);
 user_pref("browser.tabs.closeWindowWithLastTab", false);
 user_pref("browser.tabs.insertRelatedAfterCurrent", true);
 user_pref("browser.tabs.tabClipWidth", 50);
+// enable ctrl+tab preview
+user_pref("browser.ctrlTab.previews", true)
 user_pref("network.proxy.socks_remote_dns", true);
 // shorten http connection timout
 user_pref("network.http.connection-timeout", 30);
