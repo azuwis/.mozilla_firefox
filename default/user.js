@@ -93,6 +93,9 @@ user_pref("devtools.chrome.enabled", true);
 
 // Extension //
 
+// vimfx
+user_pref("extensions.VimFx.config_file_directory", "~/.vimfx");
+
 // session manager
 // backup every 4 hours
 user_pref("extensions.{1280606b-2510-4fe0-97ef-9b5a22eafe30}.backup_every", true);
