@@ -109,6 +109,10 @@ user_pref("extensions.classicthemerestorer.hidetbwot", true);
 user_pref("extensions.classicthemerestorer.smallnavbut", true);
 user_pref("extensions.classicthemerestorer.tabs", "tabs_default");
 
+// https everywhere
+user_pref("extensions.https_everywhere._observatory.popup_shown", true);
+user_pref("extensions.https_everywhere.toolbar_hint_shown", true);
+
 // beyond australis
 user_pref("extensions.thefoxonlybetter.awesomerURLBar", false);
 user_pref("extensions.thefoxonlybetter.skyLights", false);
