@@ -5,7 +5,7 @@
 user_pref("extensions.update.enabled", true);
 user_pref("ui.caretBlinkTime", 0);
 // disable web page accesskey, this leads to key conflict
-user_pref("ui.key.generalAccessKey", 0);
+//user_pref("ui.key.generalAccessKey", 0);
 user_pref("browser.tabs.closeWindowWithLastTab", false);
 user_pref("browser.tabs.insertRelatedAfterCurrent", true);
 user_pref("browser.tabs.tabClipWidth", 50);
