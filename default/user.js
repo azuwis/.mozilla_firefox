@@ -90,6 +90,8 @@ user_pref("browser.aboutHomeSnippets.updateUrl", "");
 user_pref("browser.search.update", false);
 // enable console in devtools
 user_pref("devtools.chrome.enabled", true);
+// try harder to use ipv6
+user_pref("network.http.fast-fallback-to-IPv4", false);
 
 // Extension //
 
