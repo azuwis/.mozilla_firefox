@@ -5,3 +5,20 @@
   font-family: monospace, Consolas, "Courier New" !important;
 }
 }
+
+/* https://userstyles.org/styles/49684/youtube-2016-full-width-responsive-player-wide-hd */
+@-moz-document domain(youtube.com) {
+div#theater-background.player-height {
+  display: none !important;
+}
+.watch-stage-mode .player-height {
+  height: 55.75vw !important;
+}
+.watch-stage-mode .player-width {
+  width: 100% !important;
+  left: 0 !important;
+}
+.watch-stage-mode .player-width {
+  margin-left: 0 !important;
+}
+}
