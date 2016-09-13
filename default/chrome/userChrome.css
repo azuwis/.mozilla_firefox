@@ -15,3 +15,6 @@
 
 /* no click to play popup */
 /* panel[popupid="click-to-play-plugins"] {display: none !important;} */
+
+/* remove menu icon */
+:-moz-any(#contentAreaContextMenu, #tabContextMenu) > :-moz-any(menuitem, menu) > .menu-iconic-left {visibility: hidden !important;}
