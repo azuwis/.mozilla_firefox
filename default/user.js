@@ -108,7 +108,6 @@ user_pref("extensions.classicthemerestorer.appbutton", "appbutton_off");
 user_pref("extensions.classicthemerestorer.ctabheight", 24);
 user_pref("extensions.classicthemerestorer.ctabheightcb", true);
 user_pref("extensions.classicthemerestorer.hidetbwot", true);
-user_pref("extensions.classicthemerestorer.smallnavbut", true);
 user_pref("extensions.classicthemerestorer.tabs", "tabs_default");
 
 // https everywhere
