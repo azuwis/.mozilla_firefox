@@ -92,6 +92,9 @@ user_pref("browser.search.update", false);
 user_pref("devtools.chrome.enabled", true);
 // try harder to use ipv6
 //user_pref("network.http.fast-fallback-to-IPv4", false);
+// acceleration
+//user_pref("layers.acceleration.force-enabled", true);
+//user_pref("gfx.content.azure.backends", "skia");
 
 // Extension //
 
