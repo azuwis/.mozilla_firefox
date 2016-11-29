@@ -106,12 +106,8 @@ user_pref("extensions.VimFx.config_file_directory", "~/.vimfx");
 user_pref("extensions.{1280606b-2510-4fe0-97ef-9b5a22eafe30}.backup_every", true);
 user_pref("extensions.{1280606b-2510-4fe0-97ef-9b5a22eafe30}.backup_every_time", 240);
 
-// class theme restorer
-user_pref("extensions.classicthemerestorer.appbutton", "appbutton_off");
-user_pref("extensions.classicthemerestorer.ctabheight", 24);
-user_pref("extensions.classicthemerestorer.ctabheightcb", true);
-user_pref("extensions.classicthemerestorer.hidetbwot", true);
-user_pref("extensions.classicthemerestorer.tabs", "tabs_default");
+// thin tabs
+user_pref("extensions.org.bonsaimind.thintabs.tabs.height", 24);
 
 // https everywhere
 user_pref("extensions.https_everywhere._observatory.popup_shown", true);
