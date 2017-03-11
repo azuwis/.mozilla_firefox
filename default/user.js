@@ -107,7 +107,7 @@ user_pref("extensions.{1280606b-2510-4fe0-97ef-9b5a22eafe30}.backup_every", true
 user_pref("extensions.{1280606b-2510-4fe0-97ef-9b5a22eafe30}.backup_every_time", 240);
 
 // thin tabs
-user_pref("extensions.org.bonsaimind.thintabs.tabs.height", 24);
+user_pref("extensions.org.bonsaimind.thintabs.tabs.height", 20);
 
 // https everywhere
 user_pref("extensions.https_everywhere._observatory.popup_shown", true);
