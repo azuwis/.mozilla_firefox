@@ -37,6 +37,7 @@ user_pref("toolkit.scrollbox.smoothScroll", false);
 user_pref("toolkit.scrollbox.verticalScrollDistance", 5);
 // do not track
 user_pref("privacy.donottrackheader.enabled", true);
+user_pref("network.http.referer.userControlPolicy", 2);
 // no new tab page
 user_pref("browser.newtabpage.enabled", false);
 user_pref("browser.newtabpage.enhanced", false);
