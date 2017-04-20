@@ -96,6 +96,8 @@ user_pref("devtools.chrome.enabled", true);
 // acceleration
 //user_pref("layers.acceleration.force-enabled", true);
 //user_pref("gfx.content.azure.backends", "skia");
+// show punycode
+user_pref("network.IDN_show_punycode", true);
 
 // Extension //
 
