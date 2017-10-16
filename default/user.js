@@ -111,14 +111,6 @@ user_pref("extensions.VimFx.config_file_directory", "~/.vimfx");
 user_pref("extensions.{1280606b-2510-4fe0-97ef-9b5a22eafe30}.backup_every", true);
 user_pref("extensions.{1280606b-2510-4fe0-97ef-9b5a22eafe30}.backup_every_time", 240);
 
-// thin tabs
-user_pref("extensions.org.bonsaimind.thintabs.tabs.height", 20);
-
 // https everywhere
 user_pref("extensions.https_everywhere._observatory.popup_shown", true);
 user_pref("extensions.https_everywhere.toolbar_hint_shown", true);
-
-// beyond australis
-user_pref("extensions.thefoxonlybetter.awesomerURLBar", false);
-user_pref("extensions.thefoxonlybetter.skyLights", false);
-user_pref("extensions.thefoxonlybetter.slimAnimation", "none");
