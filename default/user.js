@@ -59,7 +59,8 @@ user_pref("browser.urlbar.suggest.searches", true);
 user_pref("browser.urlbar.trimURLs", false);
 // disable services
 user_pref("loop.enabled", false);
-user_pref("browser.pocket.enabled", false);
+user_pref("extensions.pocket.enabled", false);
+user_pref("extensions.screenshots.disabled", true);
 // disable safe browsing
 user_pref("browser.safebrowsing.enabled", false);
 user_pref("browser.safebrowsing.malware.enabled", false);
@@ -100,6 +101,10 @@ user_pref("devtools.chrome.enabled", true);
 user_pref("network.IDN_show_punycode", true);
 // multi content processes
 user_pref("dom.ipc.processCount", 6);
+// hide html5 full screen api warning
+user_pref("full-screen-api.warning.timeout", -1);
+// disable bottom search engines on location bar
+user_pref("browser.urlbar.oneOffSearches", false);
 
 // Extension //
 
