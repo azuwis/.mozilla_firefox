@@ -105,6 +105,9 @@ user_pref("dom.ipc.processCount", 6);
 user_pref("full-screen-api.warning.timeout", -1);
 // disable bottom search engines on location bar
 user_pref("browser.urlbar.oneOffSearches", false);
+// container tabs
+user_pref("privacy.userContext.enabled", true);
+user_pref("privacy.userContext.ui.enabled", true);
 
 // Extension //
 
