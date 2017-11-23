@@ -94,7 +94,7 @@
 */
 
 [uidensity="compact"]:root {
-  --tab-min-height: 22px !important;
+  --tab-min-height: 20px !important;
   --newtab-margin: -3px 0 -3px -3px !important;
 }
 
