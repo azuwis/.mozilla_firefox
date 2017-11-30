@@ -113,7 +113,7 @@ statuspanel {
 @media not screen and (-moz-os-version: windows-win10) {
 
   [uidensity="compact"]:root {
-    --tab-min-height: 20px !important;
+    --tab-min-height: 22px !important;
     --newtab-margin: -3px 0 -3px -3px !important;
   }
 
