@@ -93,15 +93,19 @@
 * Contributor(s): DrPugsley
 */
 
-[uidensity="compact"]:root {
-  --tab-min-height: 20px !important;
-  --newtab-margin: -3px 0 -3px -3px !important;
-}
+@media not screen and (-moz-os-version: windows-win10) {
 
-.tabbrowser-tab {
-  max-height: var(--tab-min-height) !important;
-}
+  [uidensity="compact"]:root {
+    --tab-min-height: 20px !important;
+    --newtab-margin: -3px 0 -3px -3px !important;
+  }
 
-.tabs-newtab-button{
-  margin: var(--newtab-margin) !important;
+  .tabbrowser-tab {
+    max-height: var(--tab-min-height) !important;
+  }
+
+  .tabs-newtab-button{
+    margin: var(--newtab-margin) !important;
+  }
+
 }
