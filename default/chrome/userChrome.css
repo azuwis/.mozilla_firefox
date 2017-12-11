@@ -1,2 +1,3 @@
 @import url(./userChrome/common.css);
-@import url(./userChrome/autohide.css);
+/* @import url(./userChrome/autohide.css); */
+@import url(./userChrome/oneline.css);
