@@ -27,7 +27,7 @@ Use with compact density
 
 /* Move Tab-bar beside Nav-bar */
 #TabsToolbar {
-  margin-bottom: 0px !important;                /* not needed anymore? */
+  margin-bottom: -4px !important;               /* not needed anymore? */
   margin-top: 0px !important;                   /*  */
   margin-left: 35vw !important;
   margin-right: -34px !important;
