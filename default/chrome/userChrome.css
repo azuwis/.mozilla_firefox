@@ -38,6 +38,11 @@ statuspanel {
   display: none;
 }
 
+/* hide alltabs button */
+#TabsToolbar toolbarbutton#alltabs-button {
+  display: none;
+}
+
 /* remove menu icon */
 :-moz-any(#contentAreaContextMenu, #tabContextMenu) > :-moz-any(menuitem, menu) > .menu-iconic-left {
   visibility: hidden !important;
