@@ -27,10 +27,15 @@ Use with compact density
 
 /* Move Tab-bar beside Nav-bar */
 #TabsToolbar {
-  margin-bottom: -4px !important;               /* not needed anymore? */
+  margin-bottom: 0px !important;                /* not needed anymore? */
   margin-top: 0px !important;                   /*  */
   margin-left: 35vw !important;
   margin-right: -34px !important;
+}
+@media not screen and (-moz-os-version: windows-win10) {
+  #TabsToolbar {
+    margin-bottom: -4px !important;
+  }
 }
 
 #nav-bar {
