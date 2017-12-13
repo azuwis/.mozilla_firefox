@@ -109,5 +109,5 @@ user_pref("browser.urlbar.oneOffSearches", false);
 user_pref("privacy.userContext.enabled", true);
 user_pref("privacy.userContext.ui.enabled", true);
 // disable activity stream
-user_pref("browser.library.activity-stream.enabled", false);
-user_pref("browser.newtabpage.activity-stream.enabled", false);
+//user_pref("browser.library.activity-stream.enabled", false);
+//user_pref("browser.newtabpage.activity-stream.enabled", false);
