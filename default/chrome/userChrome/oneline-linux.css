@@ -11,6 +11,10 @@
   margin-bottom: -6px !important;
 }
 
+#back-button, #forward-button {
+  display: none;
+}
+
 #back-button > .toolbarbutton-icon,
 #forward-button > .toolbarbutton-icon {
   margin-bottom: 4px !important;
