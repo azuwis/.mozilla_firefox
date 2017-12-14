@@ -1,9 +1,14 @@
+[uidensity="compact"]:root #urlbar, [uidensity="compact"]:root .searchbar-textbox {
+  margin-top: 6px !important;
+	min-height: 22px !important;
+}
+
 #nav-bar {
   height: 32px;
 }
 
 .toolbarbutton-1 {
-  margin-bottom: -4px !important;
+  margin-bottom: -7px !important;
 }
 
 #back-button > .toolbarbutton-icon,
@@ -12,7 +17,7 @@
 }
 
 [uidensity="compact"]:root {
-  --tab-min-height: 28px !important;
+  --tab-min-height: 24px !important;
 }
 
 .tabbrowser-tab {
