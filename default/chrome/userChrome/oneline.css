@@ -32,11 +32,6 @@ Use with compact density
   margin-left: 35vw !important;
   margin-right: -34px !important;
 }
-@media not screen and (-moz-os-version: windows-win10) {
-  #TabsToolbar {
-    margin-bottom: -4px !important;
-  }
-}
 
 #nav-bar {
   margin-bottom: -1px !important;               /* remove navbar bottom 1px border */

@@ -2,4 +2,5 @@
 @import url(./userChrome/tridactyl.css);
 /* @import url(./userChrome/autohide.css); */
 @import url(./userChrome/oneline.css);
+@import url(./userChrome/oneline-linux.css) not screen and (-moz-os-version: windows-win10);
 @import url(./userChrome/findbar.css);
