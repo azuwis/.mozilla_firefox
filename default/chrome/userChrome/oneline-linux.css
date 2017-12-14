@@ -11,7 +11,12 @@
   min-height: 21px !important;
 }
 
+#TabsToolbar {
+  margin-left: 28vw !important;
+}
+
 #nav-bar {
+  margin-right: 72vw !important;
   height: 32px;
 }
 
