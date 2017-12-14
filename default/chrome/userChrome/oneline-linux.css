@@ -1,6 +1,6 @@
 [uidensity="compact"]:root #urlbar, [uidensity="compact"]:root .searchbar-textbox {
-  margin-top: 6px !important;
-	min-height: 22px !important;
+  margin-top: 7px !important;
+  min-height: 21px !important;
 }
 
 #nav-bar {
@@ -8,7 +8,7 @@
 }
 
 .toolbarbutton-1 {
-  margin-bottom: -7px !important;
+  margin-bottom: -6px !important;
 }
 
 #back-button > .toolbarbutton-icon,
