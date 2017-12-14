@@ -1,3 +1,11 @@
+[uidensity="compact"]:root {
+  --tab-min-height: 24px !important;
+}
+
+.tabbrowser-tab {
+  height: var(--tab-min-height) !important;
+}
+
 [uidensity="compact"]:root #urlbar, [uidensity="compact"]:root .searchbar-textbox {
   margin-top: 7px !important;
   min-height: 21px !important;
@@ -18,12 +26,4 @@
 #back-button > .toolbarbutton-icon,
 #forward-button > .toolbarbutton-icon {
   margin-bottom: 4px !important;
-}
-
-[uidensity="compact"]:root {
-  --tab-min-height: 24px !important;
-}
-
-.tabbrowser-tab {
-  height: var(--tab-min-height) !important;
 }
