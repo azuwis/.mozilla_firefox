@@ -111,3 +111,6 @@ user_pref("privacy.userContext.ui.enabled", true);
 // disable activity stream
 //user_pref("browser.library.activity-stream.enabled", false);
 //user_pref("browser.newtabpage.activity-stream.enabled", false);
+// disable auto system addon installing
+user_pref("extensions.shield-recipe-client.enabled", false);
+user_pref("app.shield.optoutstudies.enabled", false);
