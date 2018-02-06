@@ -7,7 +7,7 @@
 }
 
 [uidensity="compact"]:root #urlbar, [uidensity="compact"]:root .searchbar-textbox {
-  margin-top: 7px !important;
+  margin-top: 9px !important;
   min-height: 21px !important;
 }
 
