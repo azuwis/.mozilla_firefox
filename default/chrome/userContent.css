@@ -102,3 +102,10 @@
   }
 
 }
+
+
+@-moz-document domain("purecss.io") {
+  html, button, input, select, textarea, .pure-g [class*="pure-u"] {
+    font-weight: normal !important;
+  }
+}
