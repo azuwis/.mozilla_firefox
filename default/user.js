@@ -114,3 +114,5 @@ user_pref("privacy.userContext.ui.enabled", true);
 // disable auto system addon installing
 user_pref("extensions.shield-recipe-client.enabled", false);
 user_pref("app.shield.optoutstudies.enabled", false);
+// enable off main thread paint
+user_pref("layers.omtp.enabled", true);
