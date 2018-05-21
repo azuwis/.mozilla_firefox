@@ -116,3 +116,5 @@ user_pref("extensions.shield-recipe-client.enabled", false);
 user_pref("app.shield.optoutstudies.enabled", false);
 // enable off main thread paint
 user_pref("layers.omtp.enabled", true);
+// disable autofocus
+user_pref("browser.autofocus", false);
