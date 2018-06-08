@@ -1,10 +1,10 @@
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
 /* move the status panel to the right, so it wouldn't cover Tridactyl command line */
-statuspanel {
+#statuspanel {
     left: 16%;
 }
-.statuspanel-label {
+#statuspanel-label {
     border-left-style: solid !important;
 }
 
