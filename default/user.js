@@ -119,4 +119,4 @@ user_pref("layers.omtp.enabled", true);
 // disable autofocus
 user_pref("browser.autofocus", false);
 // enable hardware compositing
-user_pref("layers.acceleration.force-enabled", true);
+//user_pref("layers.acceleration.force-enabled", true);
