@@ -1,5 +1,6 @@
 @import url(./userChrome/common.css);
 @import url(./userChrome/auto-hide.css);
+/* @import url(./userChrome/compact-tabbar.css); */
 /* @import url(./userChrome/oneline.css); */
 /* @import url(./userChrome/oneline-linux.css) not screen and (-moz-os-version: windows-win10); */
 @import url(./userChrome/findbar.css);

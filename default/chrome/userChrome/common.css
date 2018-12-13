@@ -27,15 +27,3 @@
 :-moz-any(#contentAreaContextMenu, #tabContextMenu) > :-moz-any(menuitem, menu) > .menu-iconic-left {
   visibility: hidden !important;
 }
-
-/* compact tabbar */
-#tabbrowser-tabs {
-  --tab-min-height: 25px !important;
-}
-:root[uidensity=compact] #navigator-toolbox {
-  --tab-min-height: 22px !important;
-}
-:root:not([customizing]) :hover > #nav-bar,
-:root:not([customizing]) #nav-bar:focus-within {
-  transition: inherit !important;
-}
