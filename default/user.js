@@ -99,8 +99,6 @@ user_pref("devtools.chrome.enabled", true);
 //user_pref("gfx.content.azure.backends", "skia");
 // show punycode
 user_pref("network.IDN_show_punycode", true);
-// multi content processes
-user_pref("dom.ipc.processCount", 6);
 // hide html5 full screen api warning
 user_pref("full-screen-api.warning.timeout", -1);
 // disable bottom search engines on location bar
