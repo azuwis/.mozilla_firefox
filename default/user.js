@@ -119,5 +119,5 @@ user_pref("browser.autofocus", false);
 // enable hardware compositing
 user_pref("layers.acceleration.force-enabled", true);
 // enable webextensions at amo
-user_pref("privacy.resistFingerprinting.block_mozAddonManager", true);
-user_pref("extensions.webextensions.restrictedDomains", "");
+//user_pref("privacy.resistFingerprinting.block_mozAddonManager", true);
+//user_pref("extensions.webextensions.restrictedDomains", "");
