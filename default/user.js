@@ -121,3 +121,5 @@ user_pref("layers.acceleration.force-enabled", true);
 // enable webextensions at amo
 //user_pref("privacy.resistFingerprinting.block_mozAddonManager", true);
 //user_pref("extensions.webextensions.restrictedDomains", "");
+// vimfx
+user_pref("extensions.VimFx.config_file_directory", "~/.vimfx");
