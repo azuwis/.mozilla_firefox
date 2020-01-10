@@ -1,0 +1,69 @@
+@-moz-document url(chrome://browser/content/browser.xhtml) {
+  /* Hide the horizontal tab strip */
+  #TabsToolbar:not([customizing="true"]) {
+    visibility: collapse !important;
+  }
+  #toolbar-menubar {
+    padding-top: 0px !important;
+  }
+
+  /* Hide sidebar header */
+  #sidebar-box[sidebarcommand="tabcenter-reborn_ariasuni-sidebar-action"] #sidebar-header {
+    display: none;
+  }
+
+  /* Floating auto-shrinking sidebar */
+  #sidebar-box:not([hidden]) {
+    display: block;
+    position: fixed;
+    min-width: 3vw;
+    max-width: 3vw;
+    overflow: hidden;
+    /* transition: min-width 0.2s ease; */
+    border-right: 1px solid #cdc7c2;
+    z-index: 1;
+  }
+
+  #sidebar,
+  #sidebar-box:hover {
+    min-width: 20vw !important;
+    max-width: 20vw !important;
+  }
+
+  #sidebar-splitter {
+    display: none;
+  }
+
+  /*
+   * You need to subtract the height of the panels above sidebar: toolbar (with the URL),
+   * bookmarks bar, etc. -- whichever is enabled/displayed.
+   * You can see which mode (normal, compact or touch) you’re in by going to:
+   * Firefox Menu → Customize… (at the bottom of the screen) → Density
+   *
+   *                | normal | compact | touch
+   * Menu bar       |  27px  |   27px  |  27px
+   * Tab bar        |  33px  |   29px  |  41px
+   * Toolbar        |  40px  |   32px  |  40px
+   * Bookmarks bar  |  23px  |   21px  |  27px
+   * Sidebar header |  47px  |   47px  |  47px
+   *
+   * Ex: in compact mode:
+   * - menu bar, tab bar and sidebar header hidden (0px)
+   * - nav bar (32px) + bookmarks bar (21px) = 53px
+   */
+  #sidebar {
+    height: calc(100vh - 32px);
+  }
+
+  #sidebar-box:not([hidden]) ~ #appcontent {
+    margin-left: 4vw;
+  }
+
+  #main-window[inFullscreen][inDOMFullscreen] #appcontent {
+    margin-left: 0;
+  }
+
+  #main-window[inFullscreen] #sidebar {
+    height: 100vh;
+  }
+}
