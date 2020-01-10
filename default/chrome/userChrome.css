@@ -1,2 +1,2 @@
 @import url(./userChrome/common.css);
-@import url(./userChrome/tabcenter.css);
+@import url(./userChrome/tabcenter.css) not screen and (-moz-os-version: windows-win10);
