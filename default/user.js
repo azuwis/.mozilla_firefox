@@ -60,7 +60,6 @@ user_pref("browser.urlbar.trimURLs", false);
 // disable services
 user_pref("loop.enabled", false);
 user_pref("extensions.pocket.enabled", false);
-user_pref("extensions.screenshots.disabled", true);
 // disable safe browsing
 user_pref("browser.safebrowsing.enabled", false);
 user_pref("browser.safebrowsing.malware.enabled", false);
