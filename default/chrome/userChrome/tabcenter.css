@@ -16,12 +16,13 @@
   #sidebar-box:not([hidden]) {
     display: block;
     position: fixed;
-    min-width: 3vw;
-    max-width: 3vw;
+    min-width: 2.9vw;
+    max-width: 2.9vw;
     overflow: hidden;
     /* transition: min-width 0.2s ease; */
-    border-right: 1px solid #cdc7c2;
+    border-right: 1px solid #e5e5e5;
     z-index: 1;
+    margin-left: -0.7vw;
   }
 
   #sidebar,
@@ -56,7 +57,7 @@
   }
 
   #sidebar-box:not([hidden]) ~ #appcontent {
-    margin-left: 4vw;
+    margin-left: 2.2vw;
   }
 
   #main-window[inFullscreen][inDOMFullscreen] #appcontent {
