@@ -42,7 +42,7 @@ user_pref("network.http.referer.userControlPolicy", 2);
 user_pref("browser.newtabpage.enabled", false);
 user_pref("browser.newtabpage.enhanced", false);
 // disable pdfjs
-user_pref("pdfjs.disabled", true);
+//user_pref("pdfjs.disabled", true);
 // set reader mode style
 user_pref("reader.color_scheme", "sepia");
 user_pref("reader.font_type", "serif");
